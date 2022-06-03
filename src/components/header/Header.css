@@ -1,0 +1,73 @@
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    padding: 10px 30px;
+    position: fixed;
+    z-index: 5;
+}
+
+header div button {
+    background: black;
+}
+
+#menu-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+.bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 6px;
+    background-color: black;
+    margin: 6px 0;
+    transition: all 0.8s ease;
+    border-radius: 2.5px;
+  }
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, 8px);
+    transform: rotate(-45deg) translate(-10px, 8px);
+  }
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+#menu {
+    top: 100px;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    z-index: 4;
+    right: -400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.8s ease;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+#menu a h2 {
+    margin: 0px;
+    padding: 10px;
+}
