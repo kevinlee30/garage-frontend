@@ -1,6 +1,7 @@
 let data = {
     ambassadors: [
         {
+            id: 1,
             name: "Training & Development",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
@@ -11,12 +12,14 @@ let data = {
             ]
         },
         {
+            id: 2,
             name: "Start-Up Development",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
             contentImages: []
         },
         {
+            id: 3,
             name: "Operations",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
@@ -27,6 +30,7 @@ let data = {
             ]
         },
         {
+            id: 4,
             name: "Business Development",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
@@ -37,6 +41,7 @@ let data = {
             ]
         },
         {
+            id: 5,
             name: "Branding & Marketing",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
@@ -45,6 +50,7 @@ let data = {
             ]
         },
         {
+            id: 6,
             name: "Welfare",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
@@ -55,6 +61,7 @@ let data = {
     ],
     events: [
         {
+            id: 1,
             name: "Enitio",
             date: "2012-04-23T18:25:43.511Z",
             desc: "Freshman orientation like no other",
@@ -69,6 +76,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 2,
             name: "Escendo",
             date: "2012-04-23T18:25:43.511Z",
             desc: "Makethon for EEE students",
@@ -79,6 +87,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 3,
             name: "Ideas Jam",
             date: null,
             desc: "Unleash your creativity in this idea contest",
@@ -93,6 +102,7 @@ let data = {
     ],
     workshops: [
         {
+            id: 1,
             name: "Arduino Workshop",
             date: "2012-04-23T18:25:43.511Z",
             desc: "From zero to Hero",
@@ -107,6 +117,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 2,
             name: "Circuit Analysis",
             date: "2012-04-23T18:25:43.511Z",
             desc: "Ace the exams",
@@ -121,6 +132,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 3,
             name: "Advanced Arduino Workshop",
             date: "2012-04-23T18:25:43.511Z",
             desc: "Build incredible projects",
@@ -135,6 +147,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 4,
             name: "3D Printing Workshop",
             date: "2012-04-23T18:25:43.511Z",
             desc: "Create anything from your mind",
@@ -149,6 +162,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 5,
             name: "Introduction to Start Up Development",
             date: "2012-04-23T18:25:43.511Z",
             desc: "Unleash your entrepreneur spirit",
@@ -163,6 +177,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 6,
             name: "PCB Design Workshop",
             date: "2012-04-23T18:25:43.511Z",
             desc: "Dive into the world of PCB design",
@@ -179,6 +194,7 @@ let data = {
     ],
     startUps: [
         {
+            id: 1,
             name: "Start up 1",
             desc: "Revolutionizing Agriculture",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -192,6 +208,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 2,
             name: "Start Up 2",
             desc: "Reimagining Finance",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -201,6 +218,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 3,
             name: "Start Up 3",
             desc: "Future of data driven marketing",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -214,6 +232,7 @@ let data = {
     ],
     projects: [
         {
+            id: 1,
             name: "Wall climbing robots",
             desc: "Reaching the new heights of robotics",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -227,6 +246,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 2,
             name: "Medication Reminder Mobile Application",
             desc: "Forget medication no more",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -236,6 +256,7 @@ let data = {
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
         {
+            id: 3,
             name: "Jet-pack engine",
             desc: "Sky is (not) the limit",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
