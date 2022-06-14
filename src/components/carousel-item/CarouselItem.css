@@ -1,0 +1,10 @@
+/* style for item container */
+.item-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    aspect-ratio: 1 / 1;
+    border-radius: 3.125rem;
+    background-color: white;
+}

@@ -1,14 +1,42 @@
+/***********************/
+/* Carousel Component */
+/* props: {
+    content: {
+        id,
+        name,
+        desc,
+        link,
+        img
+    }, 
+    // content for display
+
+    title_potision: "top" || "bot" 
+    // determine position of item title
+} */
+/***********************/
+
 import React from "react";
 
 import "./Carousel.css";
+import CarouselItem from "../carousel-item/CarouselItem";
 
 function Carousel(props){
+    const titlePosition = props.data.titlePosition;
+    const contentList = props.data.content.map((item) => 
+        <CarouselItem data={{
+                                itemContent: item,
+                                titlePosition: titlePosition
+                            }} key={item.name}/>
+    );
+
     return(
+        // by brandon 6/9/2022
         <div className="carousel">
-            {/* enter your code below */}
-                <h3>carousel</h3>
-            {/* enter your code above */}
+            <div className="row gy-4">
+                { contentList }
+            </div>
         </div>
+        // modification ends
     );
 };
 

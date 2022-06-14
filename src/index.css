@@ -7,6 +7,58 @@ html {
   box-sizing: inherit;
 }
 
+/* by brandon 6/9/2022 */
+p, h2, h3, h4 {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  color: #1A1A1A;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 7.5rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-weight: 500;
+    font-size: 3.7rem;
+    line-height: 5.5rem;
+    text-transform: uppercase;
+  }
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.container {
+  max-width: 80%;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 80%;
+  }
+}
+/* modification ends */
+
 body {
   margin: 0;
   padding: 0;
@@ -15,7 +67,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background : #d6d6d6;
+  background : #F6F6F6;
   overflow-x : hidden;
 }
 

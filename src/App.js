@@ -19,7 +19,6 @@ function App() {
       <Route path="event-detail" element={<EventDetail />} />
       <Route path="workshop-detail" element={<WorkshopDetail />} />
       <Route path="workshops" element={<Workshops />} />
-      
     </Routes>
   </BrowserRouter>
   );
