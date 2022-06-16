@@ -1,43 +1,52 @@
-/***********************/
-/* Carousel Component */
-/* props: {
-    content: {
-        id,
-        name,
-        desc,
-        link,
-        img
-    }, 
-    // content for display
+import React from "react"
+import { Splide, SplideSlide } from "@splidejs/react-splide"
+import useWindowDimensions from "../../hooks/useWindowDimensions"; 
+import './Carousel.css'
+import '@splidejs/react-splide/css';
+import Tile from '../../components/tile/Tile'
 
-    title_potision: "top" || "bot" 
-    // determine position of item title
-} */
-/***********************/
+function Carousel(props) {
+    const width = useWindowDimensions().width
+    const contentList = props.data.content
+    const tilesRenderList = []
 
-import React from "react";
+    // dynamically generate perPage prop for the carousel
+    let SplidePageNum = (pageWidth) => {
+        if(pageWidth > 1600) {
+            return 3
+        } else if (pageWidth > 800) {
+            return 2
+        } else if (pageWidth > 0) {
+            return 1
+        } 
+    }
 
-import "./Carousel.css";
-import CarouselItem from "../carousel-item/CarouselItem";
-
-function Carousel(props){
-    const titlePosition = props.data.titlePosition;
-    const contentList = props.data.content.map((item) => 
-        <CarouselItem data={{
-                                itemContent: item,
-                                titlePosition: titlePosition
-                            }} key={item.name}/>
-    );
+    for (let i = 0; i < contentList.length; i++){
+        tilesRenderList.push(
+            <SplideSlide key={i}>
+                <Tile 
+                    data={{
+                        itemContent: contentList[i],
+                        titlePosition: "top"
+                    }}
+                />  
+            </SplideSlide>
+        )
+    }
 
     return(
-        // by brandon 6/9/2022
         <div className="carousel">
-            <div className="row gy-4">
-                { contentList }
-            </div>
+            <Splide aria-label="a carousel"
+                options={{
+                    type: 'loop',
+                    perPage: SplidePageNum(width),
+                    perMove: 1,
+                    gap: "3rem"
+                }}>
+                { tilesRenderList }
+            </Splide>
         </div>
-        // modification ends
-    );
-};
+    )
+}
 
-export default Carousel;
+export default Carousel

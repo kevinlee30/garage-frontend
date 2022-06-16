@@ -2,7 +2,8 @@ import React from "react";
 
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import Carousel from "../../components/carousel/Carousel";
+import Gallery from "../../components/gallery/Gallery";
+import Carousel from "../../components/carousel/Carousel"
 
 import { getData } from "../../data";
 
@@ -58,7 +59,7 @@ class Home extends React.Component{
                                 The Ambassador Track focuses on giving students a platform to learn and grow. Students will get to propose and facilitate unique initiatives for the NTU community. The Ambassador Track consists of 6 portfolios, namely Branding & Marketing, Business Development, Operations, Start-Up, Training & Development and Welfare. Students also ensure that Garage will be a efficient and impactful makerspace..
                             </p>
                             <div style={{marginTop:"6.25rem"}}>
-                                <Carousel data={{
+                                <Gallery data={{
                                                     content: this.state.data.ambassadors,
                                                     titlePosition: "top"
                                                 }}/>
@@ -105,9 +106,8 @@ class Home extends React.Component{
 
                         <div style={{marginTop:"6.25rem", width:"100%"}}>
                             <Carousel data={{
-                                                content: this.state.data.projects,
-                                                titlePosition: "bot"
-                                            }}/>
+                                content: this.state.data.projects
+                            }}/>
                         </div>
                         <button className="view-all">
                             <p>
@@ -120,26 +120,16 @@ class Home extends React.Component{
                     <section className="flagship-events container">
                         <h2>our flagship events</h2>
                         <div style={{marginTop:"6.25rem", width:"100%"}}>
-                            <Carousel data = {{
-                                                content: this.state.data.events,
-                                                titlePosition: "bot"
-                                              }}/>
+                            <Carousel data={{
+                                    content: this.state.data.projects
+                                }}/>
                         </div>
                     </section>
                     <section className="workshops container">
                         <h2>workshops</h2>
                         <div style={{marginTop:"6.25rem", width:"100%"}}>
-                            <Carousel data = {{
+                            <Gallery data = {{
                                                 content: this.state.data.workshops,
-                                                titlePosition: "bot"
-                                              }}/>
-                        </div>
-                    </section>
-                    <section className="start ups container">
-                        <h2>start ups</h2>
-                        <div style={{marginTop:"6.25rem", width:"100%"}}>
-                            <Carousel data = {{
-                                                content: this.state.data.startUps,
                                                 titlePosition: "bot"
                                               }}/>
                         </div>
