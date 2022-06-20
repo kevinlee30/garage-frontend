@@ -61,7 +61,7 @@ class Home extends React.Component{
                             <div style={{marginTop:"6.25rem"}}>
                                 <Gallery data={{
                                                     content: this.state.data.ambassadors,
-                                                    titlePosition: "top"
+                                                    titlePosition: "botIn"
                                                 }}/>
                             </div>
 
@@ -121,7 +121,7 @@ class Home extends React.Component{
                         <h2>our flagship events</h2>
                         <div style={{marginTop:"6.25rem", width:"100%"}}>
                             <Carousel data={{
-                                    content: this.state.data.projects
+                                    content: this.state.data.events
                                 }}/>
                         </div>
                     </section>
@@ -130,7 +130,7 @@ class Home extends React.Component{
                         <div style={{marginTop:"6.25rem", width:"100%"}}>
                             <Gallery data = {{
                                                 content: this.state.data.workshops,
-                                                titlePosition: "bot"
+                                                titlePosition: "botOut"
                                               }}/>
                         </div>
                     </section>

@@ -27,7 +27,7 @@ function Carousel(props) {
                 <Tile 
                     data={{
                         itemContent: contentList[i],
-                        titlePosition: "top"
+                        titlePosition: "botIn"
                     }}
                 />  
             </SplideSlide>
