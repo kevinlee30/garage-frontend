@@ -3,7 +3,6 @@ import { Splide, SplideSlide } from "@splidejs/react-splide"
 import useWindowDimensions from "../../hooks/useWindowDimensions"; 
 import './Carousel.css'
 import '@splidejs/react-splide/css';
-import Tile from '../../components/tile/Tile'
 
 function Carousel(props) {
     const width = useWindowDimensions().width
@@ -21,15 +20,20 @@ function Carousel(props) {
         } 
     }
 
+    let imgSrc = ""
     for (let i = 0; i < contentList.length; i++){
+        let content = contentList[i]
+        imgSrc = content.displayImage
         tilesRenderList.push(
             <SplideSlide key={i}>
-                <Tile 
-                    data={{
-                        itemContent: contentList[i],
-                        titlePosition: "botIn"
-                    }}
-                />  
+                <div className="card h-100 border-0 rounded-5">
+                    <img src={imgSrc} className="card-img-top square-fit" alt="..."/>
+                    <div className="card-body p-4">
+                        <div className="card-title h3 position-relative top-50 start-50 translate-middle">
+                            { content.name }
+                        </div>
+                    </div>
+                </div>
             </SplideSlide>
         )
     }

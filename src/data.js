@@ -67,7 +67,7 @@ let data = {
             desc: "Freshman orientation like no other",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             link: "www.instagram.com",
-            displayImage: "https://media.istockphoto.com/vectors/tiny-people-working-from-different-countries-vector-id1302907498?k=20&m=1302907498&s=612x612&w=0&h=G-fj4cN5xQ26x4AzZ27pK_nawAYAR8HVHAYaP9w_7vk=",
+            displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
             contentImages: [
                 "https://img.freepik.com/free-vector/men-success-laptop-relieve-work-from-home-computer-great_10045-646.jpg",
                 "https://static.vecteezy.com/system/resources/previews/002/274/676/original/woman-working-on-laptop-freelance-remote-working-online-studying-work-from-home-illustration-vector.jpg",
@@ -82,7 +82,7 @@ let data = {
             desc: "Makethon for EEE students",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             link: "www.instagram.com",
-            displayImage: "https://media.istockphoto.com/vectors/tiny-people-working-from-different-countries-vector-id1302907498?k=20&m=1302907498&s=612x612&w=0&h=G-fj4cN5xQ26x4AzZ27pK_nawAYAR8HVHAYaP9w_7vk=",
+            displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
             contentImages: [],
             contentVideo: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         },
@@ -93,7 +93,7 @@ let data = {
             desc: "Unleash your creativity in this idea contest",
             article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             link: "www.instagram.com",
-            displayImage: "https://media.istockphoto.com/vectors/tiny-people-working-from-different-countries-vector-id1302907498?k=20&m=1302907498&s=612x612&w=0&h=G-fj4cN5xQ26x4AzZ27pK_nawAYAR8HVHAYaP9w_7vk=",
+            displayImage: "https://img.freepik.com/free-vector/organic-flat-engineer-working-construction_52683-59203.jpg?w=2000",
             contentImages: [
                 "https://img.freepik.com/free-vector/men-success-laptop-relieve-work-from-home-computer-great_10045-646.jpg",
             ],

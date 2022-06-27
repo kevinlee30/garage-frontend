@@ -23,7 +23,7 @@ function CarouselItem(props) {
 
     return(
         <a href={ link } className="col-6 col-lg-4" style={{textDecoration:"none"}}>
-            <div key={content.id} className="item-container" style={backgroundImage}>
+            <div key={content.id} className="item-container rounded-5" style={backgroundImage}>
                 <div className='title-container'>
                     { content.name && titlePosition === "botIn" && itemHeadingTop }
                 </div>
